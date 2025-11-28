@@ -37,3 +37,6 @@ SERVERS="10.93.2.58"
 INTERFACES="eth1 eth2"
 OPTIONS=""
 RELAY
+
+service isc-dhcp-relay restart
+EOF
