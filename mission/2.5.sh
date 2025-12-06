@@ -11,5 +11,5 @@ iptables -A INPUT -p tcp --dport 80 -s 10.93.1.192/26 -m time --timestart 17:00 
 # Blokir akses di luar jam kerja
 iptables -A INPUT -p tcp --dport 80 -j DROP
 
-#Ubah jam di Palantir lalu tes curl dari Gilgalad/Elendil sesuai jamnya.
+#Ubah jam di Palantir () lalu tes curl dari Gilgalad/Elendil sesuai jamnya.
 date -s "12:00:00" atau "20:00:00"

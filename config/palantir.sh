@@ -1,0 +1,10 @@
+# /etc/network/interfaces - PALANTIR
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 10.93.2.46
+    netmask 255.255.255.252
+    gateway 10.93.2.45
+    dns-nameservers 10.93.2.34
